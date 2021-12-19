@@ -1,0 +1,40 @@
+.photok {
+   background-image: url();
+    background-color: rgb(68, 68, 68);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: none;
+    border-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment:scroll;
+    background-repeat: repeat;
+    outline-offset: -3px;
+}
+ @media only screen and (min-width: 200px) and (max-width: 600px) {
+.photok {
+   background-image: url("https://templo.ru/builder3/elements/images/uploads/mb.jpg");
+    background-color: rgb(68, 68, 68);
+    padding-top: 10px;
+    padding-bottom: 280px;
+    box-shadow: none;
+    border-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    outline-offset: -3px;
+}
+}
+@media only screen and (min-width: 601px){
+.photok {
+    background-image:url("https://templo.ru/builder3/elements/images/uploads/pc.jpg");
+    background-color: rgb(68, 68, 68);
+    padding-top: 10px;
+    padding-bottom: 440px;
+    box-shadow: none;
+    border-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    outline-offset: -3px;
+}
+}    
